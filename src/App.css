@@ -1,38 +1,131 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Sans&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #45d42c;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:  inherit;
+}
+.navbar a:hover {
+  color: #23cf23;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+body {
+  background-color: #f1f4fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: white;
+  box-shadow: 2px 3px 11px 1px rgba(224,224,224,1);
+  padding: 10px 80px 20px 80px;
+  border-radius: 3px;
+}
+h1 {
+  margin: 20px 0;
+  color: #202020;
+  font-size: 16px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-form {
+  margin-bottom: 32px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list-input {
+  padding: 8px 14px;
+  border-radius: 3px 0 0 3px;
+  border: none;
+  outline: none;
+  width: 320px;
+  background: #f1f5f5;
+  color: rgb(38, 38, 38);
+}
+
+.list-input::placeholder {
+  color: #8f8f8f;
+}
+
+.list-button {
+  padding: 8px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  outline: none;
+  background: #19c933;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+
+.list-button.edit {
+  background: #19c933;
+  padding: 8px 14px;
+}
+
+.todo-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: relative;
+}
+
+.list-row {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 6px auto;
+  color: rgb(38, 38, 38);
+  padding: 10px 5px 0 5px;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-icon {
+  color: #e92c2c;
+  margin-right: 10px;
+}
+
+.edit-icon {
+  color: #4ac741;
+
 }
