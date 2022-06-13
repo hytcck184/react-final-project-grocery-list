@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb87167a.css",
-    "main.js": "/static/js/main.277ebc49.js",
-    "index.html": "/index.html",
-    "main.cb87167a.css.map": "/static/css/main.cb87167a.css.map",
-    "main.277ebc49.js.map": "/static/js/main.277ebc49.js.map"
+    "main.css": "/react-final-project-grocery-list/static/css/main.cb87167a.css",
+    "main.js": "/react-final-project-grocery-list/static/js/main.277ebc49.js",
+    "index.html": "/react-final-project-grocery-list/index.html",
+    "main.cb87167a.css.map": "/react-final-project-grocery-list/static/css/main.cb87167a.css.map",
+    "main.277ebc49.js.map": "/react-final-project-grocery-list/static/js/main.277ebc49.js.map"
   },
   "entrypoints": [
     "static/css/main.cb87167a.css",
