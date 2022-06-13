@@ -1,7 +1,7 @@
 const Info = () => {
     return ( 
         <div className="info">
-            <h2>Make New List</h2>
+            <h6>It is easier to shop online</h6>
         </div>
      );
 }
